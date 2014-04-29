@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    <title>Index</title>
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #F1F1F1;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="text-center">
+        <h2>We're going to have an exciting party!</h2>
+        <h3>And you are invited</h3>
+        <div class="btn btn-success">
+            @Html.ActionLink("RSVP Now", "RsvpForm", null, new { data_toggle = "modal", data_target = "#myModal", data_backdrop="static" })
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script type="text/javascript">
+
+        $(function () {
+            // clear cache after modal is closed
+            $('body').on('hidden.bs.modal', '.modal', function () {
+                $(this).removeData('bs.modal');
+            });
+        });
+    </script>
+</body>
+</html>
