@@ -19,19 +19,25 @@ Refactor the project from the second chapter of this book
 
 > You need to refrence the scripts
 
-``` <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
-       <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
-```
+<code>
+
+ <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+ <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+</code>
 
 * 2, [Twitter bootstrap remote modal shows same content everytime (disable cache)](http://stackoverflow.com/questions/12286332/twitter-bootstrap-remote-modal-shows-same-content-everytime)
 
 > solution: 
 > For bootstrap 3 you should use:
 
-```$('body').on('hidden.bs.modal', '.modal', function () {
+<code>
+
+$('body').on('hidden.bs.modal', '.modal', function () {
     $(this).removeData('bs.modal');
 });
-```
+
+</code>
 
 
 
