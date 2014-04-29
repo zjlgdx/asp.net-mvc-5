@@ -1,8 +1,10 @@
 asp.net-mvc-5
 =============
 
-Update from this book
-book:Pro ASP.NET MVC 5
+This project is presenting how to use asp.net mvc native client side validation with bootstrap modal.
+
+Refactor the project from the second chapter of this book
+Pro ASP.NET MVC 5
 5th Edition
 
 By Adam Freeman
