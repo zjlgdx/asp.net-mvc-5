@@ -10,6 +10,8 @@ Refactor the project from the second chapter of this book
 
 >By Adam Freeman
 
+![alt text](https://github.com/zjlgdx/asp.net-mvc-5/blob/master/d54570bb-c645-4168-9eb3-47377f52b2ab.jpg "Modal Dialog")
+
 
 ### Issues:
 * 1, [Client Side Validating Bootstrap Modal Form (VS 2013/MVC5/BS3)](http://forums.asp.net/t/1979187.aspx?Client+Side+Validating+Bootstrap+Modal+Form+VS+2013+MVC5+BS3+)
